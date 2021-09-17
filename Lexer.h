@@ -21,6 +21,7 @@ public:
     void Run(std::string& input);
     
     // TODO: add other public methods here
+    //pop whitespace add into run function
 
 };
 

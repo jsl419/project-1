@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="project_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project_1">
+				<Option output="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/project_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_1"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project_1/fast">
+				<Option output="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/project_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 project_1/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/AddAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/AddAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Automaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/ColonAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/ColonAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/ColonDashAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/ColonDashAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CommaAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CommaAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CommentAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CommentAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/EofAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/EofAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/FactsAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/FactsAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/IDAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/IDAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/LeftParenAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/LeftParenAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Lexer.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Lexer.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/MultiplyAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/MultiplyAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/PeriodAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/PeriodAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/QMarkAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/QMarkAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/QueriesAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/QueriesAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/RightParenAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/RightParenAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/RulesAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/RulesAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/SchemesAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/SchemesAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/StringAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/StringAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Token.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Token.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/UndefinedAutomaton.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/UndefinedAutomaton.h">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/main.cpp">
+			<Option target="project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
