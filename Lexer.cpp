@@ -13,23 +13,21 @@
 #include "RulesAutomaton.h"
 #include "SchemesAutomaton.h"
 #include "StringAutomaton.h"
-#include "EofAutomaton.h"
 #include "IDAutomaton.h"
-#include "UndefinedAutomaton.h"
+#include <iostream>
+#include "Token.h"
 
 Lexer::Lexer() {
     CreateAutomata();
 }
 
 Lexer::~Lexer() {
-    // TODO: need to clean up the memory in `automata` and `tokens'
     automata.clear();
     tokens.clear();
 
 }
 
 void Lexer::CreateAutomata() {
-    automata.push_back(new UndefinedAutomaton());
     automata.push_back(new ColonAutomaton());
     automata.push_back(new ColonDashAutomaton());
     automata.push_back(new CommaAutomaton());
@@ -45,7 +43,6 @@ void Lexer::CreateAutomata() {
     automata.push_back(new SchemesAutomaton());
     automata.push_back(new StringAutomaton());
     automata.push_back(new IDAutomaton());
-    automata.push_back(new EofAutomaton());
 }
 
 void Lexer::Run(std::string& input) {
@@ -54,28 +51,55 @@ void Lexer::Run(std::string& input) {
     Automaton *maxAutomata = automata.at(0);
     while (input.size() > 0) {
         while (std::isspace(input[0])) {
-            input.erase(0);
+            if (input[0] == '\n'){
+                lineNumber++;
+            }
+            input.erase(input.begin());
         }
         int maxRead = 0;
         maxAutomata = automata.at(0);
-        for (int i = 0; i < automata.size(); i++) {
-            if (maxAutomata->Start(input) > maxRead) {
-                maxRead = maxAutomata->Start(input);
+        for (unsigned int i = 0; i < automata.size(); i++) {
+            int read = automata.at(i)->Start(input);
+            if (read > maxRead) {
+                maxRead = read;
                 maxAutomata = automata.at(i);
             }
         }
+
         if (maxRead > 0) {
-            Token *newToken = maxAutomata->CreateToken(input , maxAutomata->NewLinesRead());
-            newToken->lineNumb = maxAutomata->NewLinesRead();
+            Token *newToken = maxAutomata->CreateToken(input.substr(0,maxRead) , lineNumber);
+            lineNumber += maxAutomata->NewLinesRead();
             tokens.push_back(newToken);
         } else {
             maxRead = 1;
-            Token *newToken = automata.at(0)->CreateToken(std::to_string(input[0]),1);
+            std::string undef;
+            undef.push_back(input.at(0));
+            Token *newToken = new Token(TokenType::UNDEFINED , undef , lineNumber);
             tokens.push_back(newToken);
         }
         input.erase(0, maxRead);
     }
-    maxAutomata = automata.at(15);
-    Token *newToken = maxAutomata->CreateToken("",1);
+    Token *newToken = new Token(TokenType::ENDOFFILE , "" , lineNumber+1);
     tokens.push_back(newToken);
+    for (int i = 0; i < tokens.size(); i++) {
+        if (i>0){
+            if (tokens.at(i-1)->typeToken == TokenType::UNDEFINED){
+                if(tokens.at(i-1)->desc == "'"){
+                    if (tokens.at(i)->typeToken != TokenType::ENDOFFILE) {
+                        tokens.at(i)->typeToken = TokenType::UNDEFINED;
+                    }
+                }
+            }
+        } else if (i>1) {
+            if (tokens.at(i - 1)->typeToken == TokenType::UNDEFINED) {
+                if ((tokens.at(i - 1)->desc == "|") && (tokens.at(i-2)->desc == "#")) {
+                    if (tokens.at(i)->typeToken != TokenType::ENDOFFILE) {
+                        tokens.at(i)->typeToken = TokenType::UNDEFINED;
+                    }
+                }
+            }
+        }
+        std::cout << "(" << tokens.at(i)->TokenToString(tokens.at(i)->typeToken) << ",\"" << tokens.at(i)->desc << "\"," << tokens.at(i)->lineNumb << ")" << std::endl;
+    }
+    std::cout << "Total Tokens = " << std::to_string(tokens.size());
 }

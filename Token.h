@@ -3,7 +3,8 @@
 #include <string>
 
 enum class TokenType {
-    COLON,
+    ENDOFFILE,
+    UNDEFINED,
     COLON_DASH,
     COMMA,
     PERIOD,
@@ -19,19 +20,18 @@ enum class TokenType {
     ID,
     STRING,
     COMMENT,
-    ENDOFFILE,
-    UNDEFINED
+    COLON,
 };
 
 class Token
 {
-private:
-    TokenType typeToken = TokenType::UNDEFINED;
-    std::string desc = "";
 public:
     Token(TokenType type, std::string description, int line);
     // TODO: add other needed methods
+    std::string TokenToString(TokenType type);
     int lineNumb = 0;
+    TokenType typeToken = TokenType::UNDEFINED;
+    std::string desc = "";
 };
 
 #endif // TOKEN_H

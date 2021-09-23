@@ -1,18 +1,45 @@
-cmake_minimum_required(VERSION 3.16)
-project(project_1)
-
+CMAKE_MINIMUM_REQUIRED(VERSION 3.16.3)
+project(project-1)
 set(CMAKE_CXX_STANDARD 14)
-
 include_directories(.)
 
-add_executable(project_1
+add_executable(project-1
+        AddAutomaton.cpp
+        AddAutomaton.h
         Automaton.h
         ColonAutomaton.cpp
         ColonAutomaton.h
         ColonDashAutomaton.cpp
         ColonDashAutomaton.h
+        CommaAutomaton.cpp
+        CommaAutomaton.h
+        CommentAutomaton.cpp
+        CommentAutomaton.h
+        FactsAutomaton.cpp
+        FactsAutomaton.h
+        IDAutomaton.cpp
+        IDAutomaton.h
+        LeftParenAutomaton.cpp
+        LeftParenAutomaton.h
         Lexer.cpp
         Lexer.h
         main.cpp
+        MultiplyAutomaton.cpp
+        MultiplyAutomaton.h
+        PeriodAutomaton.cpp
+        PeriodAutomaton.h
+        QMarkAutomaton.cpp
+        QMarkAutomaton.h
+        QueriesAutomaton.cpp
+        QueriesAutomaton.h
+        RightParenAutomaton.cpp
+        RightParenAutomaton.h
+        RulesAutomaton.cpp
+        RulesAutomaton.h
+        SchemesAutomaton.cpp
+        SchemesAutomaton.h
+        StringAutomaton.cpp
+        StringAutomaton.h
         Token.cpp
-        Token.h CommaAutomaton.cpp CommaAutomaton.h PeriodAutomaton.cpp PeriodAutomaton.h QMarkAutomaton.cpp QMarkAutomaton.h LeftParenAutomaton.cpp LeftParenAutomaton.h RightParenAutomaton.cpp RightParenAutomaton.h MultiplyAutomaton.cpp MultiplyAutomaton.h AddAutomaton.cpp AddAutomaton.h SchemesAutomaton.cpp SchemesAutomaton.h FactsAutomaton.cpp FactsAutomaton.h RulesAutomaton.cpp RulesAutomaton.h QueriesAutomaton.cpp QueriesAutomaton.h StringAutomaton.cpp StringAutomaton.h CommentAutomaton.cpp CommentAutomaton.h EofAutomaton.cpp EofAutomaton.h IDAutomaton.cpp IDAutomaton.h UndefinedAutomaton.cpp UndefinedAutomaton.h)
+        Token.h
+        )

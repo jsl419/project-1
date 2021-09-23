@@ -38,7 +38,10 @@ void CommentAutomaton::S2(const std::string& input) {
         index++;
         S3(input);
     }
-    else {
+    else if (index + 1 > input.size()){
+        Serr();
+    } else {
+
         inputRead++;
         index++;
         S2(input);
@@ -60,8 +63,6 @@ void CommentAutomaton::S2Line(const std::string& input) {
     if (input[index] != '\n') {
         inputRead++;
         index++;
-        S2(input);
-    } else if (input[index] == '\n'){
-        inputRead++;
+        S2Line(input);
     }
 }

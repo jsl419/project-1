@@ -3,7 +3,7 @@
 //
 
 #include "StringAutomaton.h"
-
+#include <iostream>
 void StringAutomaton::S0(const std::string& input) {
     if (input[index] == '\'') {
         inputRead++;
@@ -22,9 +22,13 @@ void StringAutomaton::S1(const std::string& input) {
         S3(input);
     }
     else if(input[index] != '\n'){
-        inputRead++;
-        index++;
-        S2(input);
+        if (index+1 > input.size()){
+            Serr();
+        } else {
+            inputRead++;
+            index++;
+            S1(input);
+        }
     }
     else {
         Serr();

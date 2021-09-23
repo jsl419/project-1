@@ -51,6 +51,9 @@ void FactsAutomaton::S3(const std::string& input) {
 void FactsAutomaton::S4(const std::string& input) {
     if (input[index] == 's') {
         inputRead++;
+        if(std::isalpha(input[index+1])){
+           Serr();
+        }
     }
     else {
         Serr();
