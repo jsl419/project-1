@@ -117,12 +117,6 @@
 		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CommentAutomaton.h">
 			<Option target="project-1"/>
 		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/EofAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/EofAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
 		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/FactsAutomaton.cpp">
 			<Option target="project-1"/>
 		</Unit>
@@ -199,12 +193,6 @@
 			<Option target="project-1"/>
 		</Unit>
 		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Token.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/UndefinedAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/UndefinedAutomaton.h">
 			<Option target="project-1"/>
 		</Unit>
 		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/main.cpp">

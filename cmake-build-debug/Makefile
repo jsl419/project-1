@@ -258,33 +258,6 @@ CommentAutomaton.cpp.s:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/CommentAutomaton.cpp.s
 .PHONY : CommentAutomaton.cpp.s
 
-EofAutomaton.o: EofAutomaton.cpp.o
-
-.PHONY : EofAutomaton.o
-
-# target to build an object file
-EofAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/EofAutomaton.cpp.o
-.PHONY : EofAutomaton.cpp.o
-
-EofAutomaton.i: EofAutomaton.cpp.i
-
-.PHONY : EofAutomaton.i
-
-# target to preprocess a source file
-EofAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/EofAutomaton.cpp.i
-.PHONY : EofAutomaton.cpp.i
-
-EofAutomaton.s: EofAutomaton.cpp.s
-
-.PHONY : EofAutomaton.s
-
-# target to generate assembly for a file
-EofAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/EofAutomaton.cpp.s
-.PHONY : EofAutomaton.cpp.s
-
 FactsAutomaton.o: FactsAutomaton.cpp.o
 
 .PHONY : FactsAutomaton.o
@@ -636,33 +609,6 @@ Token.cpp.s:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Token.cpp.s
 .PHONY : Token.cpp.s
 
-UndefinedAutomaton.o: UndefinedAutomaton.cpp.o
-
-.PHONY : UndefinedAutomaton.o
-
-# target to build an object file
-UndefinedAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o
-.PHONY : UndefinedAutomaton.cpp.o
-
-UndefinedAutomaton.i: UndefinedAutomaton.cpp.i
-
-.PHONY : UndefinedAutomaton.i
-
-# target to preprocess a source file
-UndefinedAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.i
-.PHONY : UndefinedAutomaton.cpp.i
-
-UndefinedAutomaton.s: UndefinedAutomaton.cpp.s
-
-.PHONY : UndefinedAutomaton.s
-
-# target to generate assembly for a file
-UndefinedAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.s
-.PHONY : UndefinedAutomaton.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -714,9 +660,6 @@ help:
 	@echo "... CommentAutomaton.o"
 	@echo "... CommentAutomaton.i"
 	@echo "... CommentAutomaton.s"
-	@echo "... EofAutomaton.o"
-	@echo "... EofAutomaton.i"
-	@echo "... EofAutomaton.s"
 	@echo "... FactsAutomaton.o"
 	@echo "... FactsAutomaton.i"
 	@echo "... FactsAutomaton.s"
@@ -756,9 +699,6 @@ help:
 	@echo "... Token.o"
 	@echo "... Token.i"
 	@echo "... Token.s"
-	@echo "... UndefinedAutomaton.o"
-	@echo "... UndefinedAutomaton.i"
-	@echo "... UndefinedAutomaton.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

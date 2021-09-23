@@ -122,22 +122,9 @@ CMakeFiles/project-1.dir/CommentAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project-1.dir/CommentAutomaton.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CommentAutomaton.cpp -o CMakeFiles/project-1.dir/CommentAutomaton.cpp.s
 
-CMakeFiles/project-1.dir/EofAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
-CMakeFiles/project-1.dir/EofAutomaton.cpp.o: ../EofAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project-1.dir/EofAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/EofAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/EofAutomaton.cpp
-
-CMakeFiles/project-1.dir/EofAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project-1.dir/EofAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/EofAutomaton.cpp > CMakeFiles/project-1.dir/EofAutomaton.cpp.i
-
-CMakeFiles/project-1.dir/EofAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project-1.dir/EofAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/EofAutomaton.cpp -o CMakeFiles/project-1.dir/EofAutomaton.cpp.s
-
 CMakeFiles/project-1.dir/FactsAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/FactsAutomaton.cpp.o: ../FactsAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project-1.dir/FactsAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project-1.dir/FactsAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/FactsAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/FactsAutomaton.cpp
 
 CMakeFiles/project-1.dir/FactsAutomaton.cpp.i: cmake_force
@@ -150,7 +137,7 @@ CMakeFiles/project-1.dir/FactsAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/IDAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/IDAutomaton.cpp.o: ../IDAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project-1.dir/IDAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project-1.dir/IDAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/IDAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/IDAutomaton.cpp
 
 CMakeFiles/project-1.dir/IDAutomaton.cpp.i: cmake_force
@@ -163,7 +150,7 @@ CMakeFiles/project-1.dir/IDAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.o: ../LeftParenAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/LeftParenAutomaton.cpp
 
 CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.i: cmake_force
@@ -176,7 +163,7 @@ CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/Lexer.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project-1.dir/Lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project-1.dir/Lexer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/Lexer.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Lexer.cpp
 
 CMakeFiles/project-1.dir/Lexer.cpp.i: cmake_force
@@ -189,7 +176,7 @@ CMakeFiles/project-1.dir/Lexer.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/main.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project-1.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project-1.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/main.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/main.cpp
 
 CMakeFiles/project-1.dir/main.cpp.i: cmake_force
@@ -202,7 +189,7 @@ CMakeFiles/project-1.dir/main.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.o: ../MultiplyAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/MultiplyAutomaton.cpp
 
 CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.i: cmake_force
@@ -215,7 +202,7 @@ CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/PeriodAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project-1.dir/PeriodAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project-1.dir/PeriodAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/PeriodAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/PeriodAutomaton.cpp
 
 CMakeFiles/project-1.dir/PeriodAutomaton.cpp.i: cmake_force
@@ -228,7 +215,7 @@ CMakeFiles/project-1.dir/PeriodAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/QMarkAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/QMarkAutomaton.cpp.o: ../QMarkAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/project-1.dir/QMarkAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project-1.dir/QMarkAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/QMarkAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/QMarkAutomaton.cpp
 
 CMakeFiles/project-1.dir/QMarkAutomaton.cpp.i: cmake_force
@@ -241,7 +228,7 @@ CMakeFiles/project-1.dir/QMarkAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/QueriesAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/QueriesAutomaton.cpp.o: ../QueriesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/project-1.dir/QueriesAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/project-1.dir/QueriesAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/QueriesAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/QueriesAutomaton.cpp
 
 CMakeFiles/project-1.dir/QueriesAutomaton.cpp.i: cmake_force
@@ -254,7 +241,7 @@ CMakeFiles/project-1.dir/QueriesAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/RightParenAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/RightParenAutomaton.cpp.o: ../RightParenAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/project-1.dir/RightParenAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/project-1.dir/RightParenAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/RightParenAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/RightParenAutomaton.cpp
 
 CMakeFiles/project-1.dir/RightParenAutomaton.cpp.i: cmake_force
@@ -267,7 +254,7 @@ CMakeFiles/project-1.dir/RightParenAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/RulesAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/RulesAutomaton.cpp.o: ../RulesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/project-1.dir/RulesAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/project-1.dir/RulesAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/RulesAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/RulesAutomaton.cpp
 
 CMakeFiles/project-1.dir/RulesAutomaton.cpp.i: cmake_force
@@ -280,7 +267,7 @@ CMakeFiles/project-1.dir/RulesAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/SchemesAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/SchemesAutomaton.cpp.o: ../SchemesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/project-1.dir/SchemesAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/project-1.dir/SchemesAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/SchemesAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/SchemesAutomaton.cpp
 
 CMakeFiles/project-1.dir/SchemesAutomaton.cpp.i: cmake_force
@@ -293,7 +280,7 @@ CMakeFiles/project-1.dir/SchemesAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/StringAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/StringAutomaton.cpp.o: ../StringAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/project-1.dir/StringAutomaton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/project-1.dir/StringAutomaton.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/StringAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/StringAutomaton.cpp
 
 CMakeFiles/project-1.dir/StringAutomaton.cpp.i: cmake_force
@@ -306,7 +293,7 @@ CMakeFiles/project-1.dir/StringAutomaton.cpp.s: cmake_force
 
 CMakeFiles/project-1.dir/Token.cpp.o: CMakeFiles/project-1.dir/flags.make
 CMakeFiles/project-1.dir/Token.cpp.o: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/project-1.dir/Token.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/project-1.dir/Token.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/Token.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Token.cpp
 
 CMakeFiles/project-1.dir/Token.cpp.i: cmake_force
@@ -317,19 +304,6 @@ CMakeFiles/project-1.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project-1.dir/Token.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Token.cpp -o CMakeFiles/project-1.dir/Token.cpp.s
 
-CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o: CMakeFiles/project-1.dir/flags.make
-CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o: ../UndefinedAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o -c /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/UndefinedAutomaton.cpp
-
-CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/UndefinedAutomaton.cpp > CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.i
-
-CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/UndefinedAutomaton.cpp -o CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.s
-
 # Object files for target project-1
 project__1_OBJECTS = \
 "CMakeFiles/project-1.dir/AddAutomaton.cpp.o" \
@@ -337,7 +311,6 @@ project__1_OBJECTS = \
 "CMakeFiles/project-1.dir/ColonDashAutomaton.cpp.o" \
 "CMakeFiles/project-1.dir/CommaAutomaton.cpp.o" \
 "CMakeFiles/project-1.dir/CommentAutomaton.cpp.o" \
-"CMakeFiles/project-1.dir/EofAutomaton.cpp.o" \
 "CMakeFiles/project-1.dir/FactsAutomaton.cpp.o" \
 "CMakeFiles/project-1.dir/IDAutomaton.cpp.o" \
 "CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.o" \
@@ -351,8 +324,7 @@ project__1_OBJECTS = \
 "CMakeFiles/project-1.dir/RulesAutomaton.cpp.o" \
 "CMakeFiles/project-1.dir/SchemesAutomaton.cpp.o" \
 "CMakeFiles/project-1.dir/StringAutomaton.cpp.o" \
-"CMakeFiles/project-1.dir/Token.cpp.o" \
-"CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o"
+"CMakeFiles/project-1.dir/Token.cpp.o"
 
 # External object files for target project-1
 project__1_EXTERNAL_OBJECTS =
@@ -362,7 +334,6 @@ project-1: CMakeFiles/project-1.dir/ColonAutomaton.cpp.o
 project-1: CMakeFiles/project-1.dir/ColonDashAutomaton.cpp.o
 project-1: CMakeFiles/project-1.dir/CommaAutomaton.cpp.o
 project-1: CMakeFiles/project-1.dir/CommentAutomaton.cpp.o
-project-1: CMakeFiles/project-1.dir/EofAutomaton.cpp.o
 project-1: CMakeFiles/project-1.dir/FactsAutomaton.cpp.o
 project-1: CMakeFiles/project-1.dir/IDAutomaton.cpp.o
 project-1: CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.o
@@ -377,10 +348,9 @@ project-1: CMakeFiles/project-1.dir/RulesAutomaton.cpp.o
 project-1: CMakeFiles/project-1.dir/SchemesAutomaton.cpp.o
 project-1: CMakeFiles/project-1.dir/StringAutomaton.cpp.o
 project-1: CMakeFiles/project-1.dir/Token.cpp.o
-project-1: CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o
 project-1: CMakeFiles/project-1.dir/build.make
 project-1: CMakeFiles/project-1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable project-1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable project-1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project-1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

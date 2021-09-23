@@ -81,7 +81,7 @@ void Lexer::Run(std::string& input) {
     }
     Token *newToken = new Token(TokenType::ENDOFFILE , "" , lineNumber+1);
     tokens.push_back(newToken);
-    for (int i = 0; i < tokens.size(); i++) {
+    for (unsigned int i = 0; i < tokens.size(); i++) {
         if (i>0){
             if (tokens.at(i-1)->typeToken == TokenType::UNDEFINED){
                 if(tokens.at(i-1)->desc == "'"){
