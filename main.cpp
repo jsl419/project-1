@@ -13,7 +13,7 @@ int main(int argc, char** argv) {
     }
     Lexer* lexer = new Lexer();
     lexer->Run(input);
-    lexer->LexerToString();
+    std::cout << lexer->LexerToString();
     delete lexer;
 
     return 0;
