@@ -13,7 +13,7 @@ std::string Token::TokenToString(TokenType type) {
     double stringVal = static_cast<double>(type);
     std::string TokenString;
     if(stringVal == 0.0){
-        TokenString = "ENDOFFILE";
+        TokenString = "EOF";
     } else if(stringVal == 1.0) {
         TokenString = "UNDEFINED";
     }else if(stringVal == 2.0){

@@ -14,6 +14,7 @@
 #include "SchemesAutomaton.h"
 #include "StringAutomaton.h"
 #include "IDAutomaton.h"
+#include "AddAutomaton.h"
 #include <iostream>
 #include "Token.h"
 
@@ -34,6 +35,7 @@ void Lexer::CreateAutomata() {
     automata.push_back(new CommentAutomaton());
     automata.push_back(new FactsAutomaton());
     automata.push_back(new LeftParenAutomaton());
+    automata.push_back(new AddAutomaton());
     automata.push_back(new MultiplyAutomaton());
     automata.push_back(new PeriodAutomaton());
     automata.push_back(new QMarkAutomaton());
@@ -56,7 +58,7 @@ void Lexer::Run(std::string& input) {
             }
             input.erase(input.begin());
             if(input.size() < 1){
-                Token *newToken = new Token(TokenType::ENDOFFILE , "" , lineNumber+1);
+                Token *newToken = new Token(TokenType::ENDOFFILE , "" , lineNumber);
                 tokens.push_back(newToken);
                 return;
             }
