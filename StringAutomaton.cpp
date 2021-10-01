@@ -21,19 +21,21 @@ void StringAutomaton::S1(const std::string& input) {
             index++;
             S2(input);
         }
-    } else if (input[index] != '\n') {
+    } else if (input[index] == '\n') {
+        inputRead++;
+        newLines++;
+        index++;
         if (index + 1 > input.size()) {
-            Serr();
-        } else {
+            return;
+            //for end of file stuff
+        }
+        S1(input);
+    } else {
             inputRead++;
             index++;
             S1(input);
-        }
-    } else {
-        Serr();
     }
 }
-
 void StringAutomaton::S2(const std::string& input) {
     if (input[index] == '\'') {
         inputRead++;

@@ -82,23 +82,6 @@ void Lexer::Run(std::string& input) {
     Token *newToken = new Token(TokenType::ENDOFFILE , "" , lineNumber+1);
     tokens.push_back(newToken);
     for (unsigned int i = 0; i < tokens.size(); i++) {
-        if (i>0){
-            if (tokens.at(i-1)->typeToken == TokenType::UNDEFINED){
-                if(tokens.at(i-1)->desc == "'"){
-                    if (tokens.at(i)->typeToken != TokenType::ENDOFFILE) {
-                        tokens.at(i)->typeToken = TokenType::UNDEFINED;
-                    }
-                }
-            }
-        } else if (i>1) {
-            if (tokens.at(i - 1)->typeToken == TokenType::UNDEFINED) {
-                if ((tokens.at(i - 1)->desc == "|") && (tokens.at(i-2)->desc == "#")) {
-                    if (tokens.at(i)->typeToken != TokenType::ENDOFFILE) {
-                        tokens.at(i)->typeToken = TokenType::UNDEFINED;
-                    }
-                }
-            }
-        }
         std::cout << "(" << tokens.at(i)->TokenToString(tokens.at(i)->typeToken) << ",\"" << tokens.at(i)->desc << "\"," << tokens.at(i)->lineNumb << ")" << std::endl;
     }
     std::cout << "Total Tokens = " << std::to_string(tokens.size());
