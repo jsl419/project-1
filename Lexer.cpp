@@ -57,7 +57,7 @@ void Lexer::Run(std::string& input) {
                 lineNumber++;
             }
             input.erase(input.begin());
-            if(input.size() < 1){
+            if(input.size() <= 1){
                 Token *newToken = new Token(TokenType::ENDOFFILE , "" , lineNumber);
                 tokens.push_back(newToken);
                 return;
