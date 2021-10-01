@@ -16,11 +16,9 @@ void StringAutomaton::S0(const std::string& input) {
 
 void StringAutomaton::S1(const std::string& input) {
     if (input[index] == '\'') {
-        if (index + 1 <= input.size()) {
             inputRead++;
             index++;
             S2(input);
-        }
     } else if (input[index] == '\n') {
         inputRead++;
         newLines++;
