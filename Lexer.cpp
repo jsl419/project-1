@@ -72,8 +72,11 @@ void Lexer::Run(std::string& input) {
                 maxAutomata = automata.at(i);
             }
         }
-
-        if (maxRead > 0) {
+        if(maxRead >= (int) input.size()){
+            Token *newToken = new Token(TokenType::UNDEFINED, input.substr(0,maxRead) , lineNumber);
+            tokens.push_back(newToken);
+        }
+        else if (maxRead > 0) {
             Token *newToken = maxAutomata->CreateToken(input.substr(0,maxRead) , lineNumber);
             lineNumber += maxAutomata->NewLinesRead();
             tokens.push_back(newToken);
