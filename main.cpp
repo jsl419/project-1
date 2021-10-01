@@ -5,7 +5,7 @@
 int main(int argc, char** argv) {
     std::ifstream in(argv[1]);
     if (!in) { std::cerr << "Unable to open " << argv[1] << " for input"; return 2; }
-    std::string input;
+    std::string input = "";
     while(!in.eof()){
         std::string line;
         getline(in,line);
@@ -13,6 +13,7 @@ int main(int argc, char** argv) {
     }
     Lexer* lexer = new Lexer();
     lexer->Run(input);
+    lexer->LexerToString();
     delete lexer;
 
     return 0;

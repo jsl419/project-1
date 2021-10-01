@@ -19,6 +19,7 @@ public:
     ~Lexer();
 
     void Run(std::string& input);
+    std::string LexerToString();
     
     // TODO: add other public methods here
     //pop whitespace add into run function
