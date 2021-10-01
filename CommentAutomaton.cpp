@@ -41,12 +41,13 @@ void CommentAutomaton::S2(const std::string& input) {
         inputRead++;
         index++;
         newLines++;
+        if (index + 1 > input.size()) {
+            index++;
+            inputRead++;
+            newLines++;
+            return;
+        }
         S2(input);
-    }
-    else if (index + 1 > input.size()){
-        index++;
-        inputRead++;
-        return;
     }
     else {
         inputRead++;
