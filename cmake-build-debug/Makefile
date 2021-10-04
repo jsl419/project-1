@@ -123,491 +123,32 @@ project-1/fast:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/build
 .PHONY : project-1/fast
 
-AddAutomaton.o: AddAutomaton.cpp.o
+Parser.o: Parser.cpp.o
 
-.PHONY : AddAutomaton.o
-
-# target to build an object file
-AddAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/AddAutomaton.cpp.o
-.PHONY : AddAutomaton.cpp.o
-
-AddAutomaton.i: AddAutomaton.cpp.i
-
-.PHONY : AddAutomaton.i
-
-# target to preprocess a source file
-AddAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/AddAutomaton.cpp.i
-.PHONY : AddAutomaton.cpp.i
-
-AddAutomaton.s: AddAutomaton.cpp.s
-
-.PHONY : AddAutomaton.s
-
-# target to generate assembly for a file
-AddAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/AddAutomaton.cpp.s
-.PHONY : AddAutomaton.cpp.s
-
-ColonAutomaton.o: ColonAutomaton.cpp.o
-
-.PHONY : ColonAutomaton.o
+.PHONY : Parser.o
 
 # target to build an object file
-ColonAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/ColonAutomaton.cpp.o
-.PHONY : ColonAutomaton.cpp.o
+Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
 
-ColonAutomaton.i: ColonAutomaton.cpp.i
+Parser.i: Parser.cpp.i
 
-.PHONY : ColonAutomaton.i
-
-# target to preprocess a source file
-ColonAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/ColonAutomaton.cpp.i
-.PHONY : ColonAutomaton.cpp.i
-
-ColonAutomaton.s: ColonAutomaton.cpp.s
-
-.PHONY : ColonAutomaton.s
-
-# target to generate assembly for a file
-ColonAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/ColonAutomaton.cpp.s
-.PHONY : ColonAutomaton.cpp.s
-
-ColonDashAutomaton.o: ColonDashAutomaton.cpp.o
-
-.PHONY : ColonDashAutomaton.o
-
-# target to build an object file
-ColonDashAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/ColonDashAutomaton.cpp.o
-.PHONY : ColonDashAutomaton.cpp.o
-
-ColonDashAutomaton.i: ColonDashAutomaton.cpp.i
-
-.PHONY : ColonDashAutomaton.i
+.PHONY : Parser.i
 
 # target to preprocess a source file
-ColonDashAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/ColonDashAutomaton.cpp.i
-.PHONY : ColonDashAutomaton.cpp.i
+Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
 
-ColonDashAutomaton.s: ColonDashAutomaton.cpp.s
+Parser.s: Parser.cpp.s
 
-.PHONY : ColonDashAutomaton.s
-
-# target to generate assembly for a file
-ColonDashAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/ColonDashAutomaton.cpp.s
-.PHONY : ColonDashAutomaton.cpp.s
-
-CommaAutomaton.o: CommaAutomaton.cpp.o
-
-.PHONY : CommaAutomaton.o
-
-# target to build an object file
-CommaAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/CommaAutomaton.cpp.o
-.PHONY : CommaAutomaton.cpp.o
-
-CommaAutomaton.i: CommaAutomaton.cpp.i
-
-.PHONY : CommaAutomaton.i
-
-# target to preprocess a source file
-CommaAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/CommaAutomaton.cpp.i
-.PHONY : CommaAutomaton.cpp.i
-
-CommaAutomaton.s: CommaAutomaton.cpp.s
-
-.PHONY : CommaAutomaton.s
+.PHONY : Parser.s
 
 # target to generate assembly for a file
-CommaAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/CommaAutomaton.cpp.s
-.PHONY : CommaAutomaton.cpp.s
-
-CommentAutomaton.o: CommentAutomaton.cpp.o
-
-.PHONY : CommentAutomaton.o
-
-# target to build an object file
-CommentAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/CommentAutomaton.cpp.o
-.PHONY : CommentAutomaton.cpp.o
-
-CommentAutomaton.i: CommentAutomaton.cpp.i
-
-.PHONY : CommentAutomaton.i
-
-# target to preprocess a source file
-CommentAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/CommentAutomaton.cpp.i
-.PHONY : CommentAutomaton.cpp.i
-
-CommentAutomaton.s: CommentAutomaton.cpp.s
-
-.PHONY : CommentAutomaton.s
-
-# target to generate assembly for a file
-CommentAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/CommentAutomaton.cpp.s
-.PHONY : CommentAutomaton.cpp.s
-
-FactsAutomaton.o: FactsAutomaton.cpp.o
-
-.PHONY : FactsAutomaton.o
-
-# target to build an object file
-FactsAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/FactsAutomaton.cpp.o
-.PHONY : FactsAutomaton.cpp.o
-
-FactsAutomaton.i: FactsAutomaton.cpp.i
-
-.PHONY : FactsAutomaton.i
-
-# target to preprocess a source file
-FactsAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/FactsAutomaton.cpp.i
-.PHONY : FactsAutomaton.cpp.i
-
-FactsAutomaton.s: FactsAutomaton.cpp.s
-
-.PHONY : FactsAutomaton.s
-
-# target to generate assembly for a file
-FactsAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/FactsAutomaton.cpp.s
-.PHONY : FactsAutomaton.cpp.s
-
-IDAutomaton.o: IDAutomaton.cpp.o
-
-.PHONY : IDAutomaton.o
-
-# target to build an object file
-IDAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/IDAutomaton.cpp.o
-.PHONY : IDAutomaton.cpp.o
-
-IDAutomaton.i: IDAutomaton.cpp.i
-
-.PHONY : IDAutomaton.i
-
-# target to preprocess a source file
-IDAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/IDAutomaton.cpp.i
-.PHONY : IDAutomaton.cpp.i
-
-IDAutomaton.s: IDAutomaton.cpp.s
-
-.PHONY : IDAutomaton.s
-
-# target to generate assembly for a file
-IDAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/IDAutomaton.cpp.s
-.PHONY : IDAutomaton.cpp.s
-
-LeftParenAutomaton.o: LeftParenAutomaton.cpp.o
-
-.PHONY : LeftParenAutomaton.o
-
-# target to build an object file
-LeftParenAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.o
-.PHONY : LeftParenAutomaton.cpp.o
-
-LeftParenAutomaton.i: LeftParenAutomaton.cpp.i
-
-.PHONY : LeftParenAutomaton.i
-
-# target to preprocess a source file
-LeftParenAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.i
-.PHONY : LeftParenAutomaton.cpp.i
-
-LeftParenAutomaton.s: LeftParenAutomaton.cpp.s
-
-.PHONY : LeftParenAutomaton.s
-
-# target to generate assembly for a file
-LeftParenAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/LeftParenAutomaton.cpp.s
-.PHONY : LeftParenAutomaton.cpp.s
-
-Lexer.o: Lexer.cpp.o
-
-.PHONY : Lexer.o
-
-# target to build an object file
-Lexer.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Lexer.cpp.o
-.PHONY : Lexer.cpp.o
-
-Lexer.i: Lexer.cpp.i
-
-.PHONY : Lexer.i
-
-# target to preprocess a source file
-Lexer.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Lexer.cpp.i
-.PHONY : Lexer.cpp.i
-
-Lexer.s: Lexer.cpp.s
-
-.PHONY : Lexer.s
-
-# target to generate assembly for a file
-Lexer.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Lexer.cpp.s
-.PHONY : Lexer.cpp.s
-
-MultiplyAutomaton.o: MultiplyAutomaton.cpp.o
-
-.PHONY : MultiplyAutomaton.o
-
-# target to build an object file
-MultiplyAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.o
-.PHONY : MultiplyAutomaton.cpp.o
-
-MultiplyAutomaton.i: MultiplyAutomaton.cpp.i
-
-.PHONY : MultiplyAutomaton.i
-
-# target to preprocess a source file
-MultiplyAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.i
-.PHONY : MultiplyAutomaton.cpp.i
-
-MultiplyAutomaton.s: MultiplyAutomaton.cpp.s
-
-.PHONY : MultiplyAutomaton.s
-
-# target to generate assembly for a file
-MultiplyAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.s
-.PHONY : MultiplyAutomaton.cpp.s
-
-PeriodAutomaton.o: PeriodAutomaton.cpp.o
-
-.PHONY : PeriodAutomaton.o
-
-# target to build an object file
-PeriodAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/PeriodAutomaton.cpp.o
-.PHONY : PeriodAutomaton.cpp.o
-
-PeriodAutomaton.i: PeriodAutomaton.cpp.i
-
-.PHONY : PeriodAutomaton.i
-
-# target to preprocess a source file
-PeriodAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/PeriodAutomaton.cpp.i
-.PHONY : PeriodAutomaton.cpp.i
-
-PeriodAutomaton.s: PeriodAutomaton.cpp.s
-
-.PHONY : PeriodAutomaton.s
-
-# target to generate assembly for a file
-PeriodAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/PeriodAutomaton.cpp.s
-.PHONY : PeriodAutomaton.cpp.s
-
-QMarkAutomaton.o: QMarkAutomaton.cpp.o
-
-.PHONY : QMarkAutomaton.o
-
-# target to build an object file
-QMarkAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/QMarkAutomaton.cpp.o
-.PHONY : QMarkAutomaton.cpp.o
-
-QMarkAutomaton.i: QMarkAutomaton.cpp.i
-
-.PHONY : QMarkAutomaton.i
-
-# target to preprocess a source file
-QMarkAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/QMarkAutomaton.cpp.i
-.PHONY : QMarkAutomaton.cpp.i
-
-QMarkAutomaton.s: QMarkAutomaton.cpp.s
-
-.PHONY : QMarkAutomaton.s
-
-# target to generate assembly for a file
-QMarkAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/QMarkAutomaton.cpp.s
-.PHONY : QMarkAutomaton.cpp.s
-
-QueriesAutomaton.o: QueriesAutomaton.cpp.o
-
-.PHONY : QueriesAutomaton.o
-
-# target to build an object file
-QueriesAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/QueriesAutomaton.cpp.o
-.PHONY : QueriesAutomaton.cpp.o
-
-QueriesAutomaton.i: QueriesAutomaton.cpp.i
-
-.PHONY : QueriesAutomaton.i
-
-# target to preprocess a source file
-QueriesAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/QueriesAutomaton.cpp.i
-.PHONY : QueriesAutomaton.cpp.i
-
-QueriesAutomaton.s: QueriesAutomaton.cpp.s
-
-.PHONY : QueriesAutomaton.s
-
-# target to generate assembly for a file
-QueriesAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/QueriesAutomaton.cpp.s
-.PHONY : QueriesAutomaton.cpp.s
-
-RightParenAutomaton.o: RightParenAutomaton.cpp.o
-
-.PHONY : RightParenAutomaton.o
-
-# target to build an object file
-RightParenAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/RightParenAutomaton.cpp.o
-.PHONY : RightParenAutomaton.cpp.o
-
-RightParenAutomaton.i: RightParenAutomaton.cpp.i
-
-.PHONY : RightParenAutomaton.i
-
-# target to preprocess a source file
-RightParenAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/RightParenAutomaton.cpp.i
-.PHONY : RightParenAutomaton.cpp.i
-
-RightParenAutomaton.s: RightParenAutomaton.cpp.s
-
-.PHONY : RightParenAutomaton.s
-
-# target to generate assembly for a file
-RightParenAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/RightParenAutomaton.cpp.s
-.PHONY : RightParenAutomaton.cpp.s
-
-RulesAutomaton.o: RulesAutomaton.cpp.o
-
-.PHONY : RulesAutomaton.o
-
-# target to build an object file
-RulesAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/RulesAutomaton.cpp.o
-.PHONY : RulesAutomaton.cpp.o
-
-RulesAutomaton.i: RulesAutomaton.cpp.i
-
-.PHONY : RulesAutomaton.i
-
-# target to preprocess a source file
-RulesAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/RulesAutomaton.cpp.i
-.PHONY : RulesAutomaton.cpp.i
-
-RulesAutomaton.s: RulesAutomaton.cpp.s
-
-.PHONY : RulesAutomaton.s
-
-# target to generate assembly for a file
-RulesAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/RulesAutomaton.cpp.s
-.PHONY : RulesAutomaton.cpp.s
-
-SchemesAutomaton.o: SchemesAutomaton.cpp.o
-
-.PHONY : SchemesAutomaton.o
-
-# target to build an object file
-SchemesAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/SchemesAutomaton.cpp.o
-.PHONY : SchemesAutomaton.cpp.o
-
-SchemesAutomaton.i: SchemesAutomaton.cpp.i
-
-.PHONY : SchemesAutomaton.i
-
-# target to preprocess a source file
-SchemesAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/SchemesAutomaton.cpp.i
-.PHONY : SchemesAutomaton.cpp.i
-
-SchemesAutomaton.s: SchemesAutomaton.cpp.s
-
-.PHONY : SchemesAutomaton.s
-
-# target to generate assembly for a file
-SchemesAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/SchemesAutomaton.cpp.s
-.PHONY : SchemesAutomaton.cpp.s
-
-StringAutomaton.o: StringAutomaton.cpp.o
-
-.PHONY : StringAutomaton.o
-
-# target to build an object file
-StringAutomaton.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/StringAutomaton.cpp.o
-.PHONY : StringAutomaton.cpp.o
-
-StringAutomaton.i: StringAutomaton.cpp.i
-
-.PHONY : StringAutomaton.i
-
-# target to preprocess a source file
-StringAutomaton.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/StringAutomaton.cpp.i
-.PHONY : StringAutomaton.cpp.i
-
-StringAutomaton.s: StringAutomaton.cpp.s
-
-.PHONY : StringAutomaton.s
-
-# target to generate assembly for a file
-StringAutomaton.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/StringAutomaton.cpp.s
-.PHONY : StringAutomaton.cpp.s
-
-Token.o: Token.cpp.o
-
-.PHONY : Token.o
-
-# target to build an object file
-Token.cpp.o:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Token.cpp.o
-.PHONY : Token.cpp.o
-
-Token.i: Token.cpp.i
-
-.PHONY : Token.i
-
-# target to preprocess a source file
-Token.cpp.i:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Token.cpp.i
-.PHONY : Token.cpp.i
-
-Token.s: Token.cpp.s
-
-.PHONY : Token.s
-
-# target to generate assembly for a file
-Token.cpp.s:
-	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Token.cpp.s
-.PHONY : Token.cpp.s
+Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
 
 main.o: main.cpp.o
 
@@ -636,6 +177,492 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+prj1/AddAutomaton.o: prj1/AddAutomaton.cpp.o
+
+.PHONY : prj1/AddAutomaton.o
+
+# target to build an object file
+prj1/AddAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/AddAutomaton.cpp.o
+.PHONY : prj1/AddAutomaton.cpp.o
+
+prj1/AddAutomaton.i: prj1/AddAutomaton.cpp.i
+
+.PHONY : prj1/AddAutomaton.i
+
+# target to preprocess a source file
+prj1/AddAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/AddAutomaton.cpp.i
+.PHONY : prj1/AddAutomaton.cpp.i
+
+prj1/AddAutomaton.s: prj1/AddAutomaton.cpp.s
+
+.PHONY : prj1/AddAutomaton.s
+
+# target to generate assembly for a file
+prj1/AddAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/AddAutomaton.cpp.s
+.PHONY : prj1/AddAutomaton.cpp.s
+
+prj1/ColonAutomaton.o: prj1/ColonAutomaton.cpp.o
+
+.PHONY : prj1/ColonAutomaton.o
+
+# target to build an object file
+prj1/ColonAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/ColonAutomaton.cpp.o
+.PHONY : prj1/ColonAutomaton.cpp.o
+
+prj1/ColonAutomaton.i: prj1/ColonAutomaton.cpp.i
+
+.PHONY : prj1/ColonAutomaton.i
+
+# target to preprocess a source file
+prj1/ColonAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/ColonAutomaton.cpp.i
+.PHONY : prj1/ColonAutomaton.cpp.i
+
+prj1/ColonAutomaton.s: prj1/ColonAutomaton.cpp.s
+
+.PHONY : prj1/ColonAutomaton.s
+
+# target to generate assembly for a file
+prj1/ColonAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/ColonAutomaton.cpp.s
+.PHONY : prj1/ColonAutomaton.cpp.s
+
+prj1/ColonDashAutomaton.o: prj1/ColonDashAutomaton.cpp.o
+
+.PHONY : prj1/ColonDashAutomaton.o
+
+# target to build an object file
+prj1/ColonDashAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/ColonDashAutomaton.cpp.o
+.PHONY : prj1/ColonDashAutomaton.cpp.o
+
+prj1/ColonDashAutomaton.i: prj1/ColonDashAutomaton.cpp.i
+
+.PHONY : prj1/ColonDashAutomaton.i
+
+# target to preprocess a source file
+prj1/ColonDashAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/ColonDashAutomaton.cpp.i
+.PHONY : prj1/ColonDashAutomaton.cpp.i
+
+prj1/ColonDashAutomaton.s: prj1/ColonDashAutomaton.cpp.s
+
+.PHONY : prj1/ColonDashAutomaton.s
+
+# target to generate assembly for a file
+prj1/ColonDashAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/ColonDashAutomaton.cpp.s
+.PHONY : prj1/ColonDashAutomaton.cpp.s
+
+prj1/CommaAutomaton.o: prj1/CommaAutomaton.cpp.o
+
+.PHONY : prj1/CommaAutomaton.o
+
+# target to build an object file
+prj1/CommaAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/CommaAutomaton.cpp.o
+.PHONY : prj1/CommaAutomaton.cpp.o
+
+prj1/CommaAutomaton.i: prj1/CommaAutomaton.cpp.i
+
+.PHONY : prj1/CommaAutomaton.i
+
+# target to preprocess a source file
+prj1/CommaAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/CommaAutomaton.cpp.i
+.PHONY : prj1/CommaAutomaton.cpp.i
+
+prj1/CommaAutomaton.s: prj1/CommaAutomaton.cpp.s
+
+.PHONY : prj1/CommaAutomaton.s
+
+# target to generate assembly for a file
+prj1/CommaAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/CommaAutomaton.cpp.s
+.PHONY : prj1/CommaAutomaton.cpp.s
+
+prj1/CommentAutomaton.o: prj1/CommentAutomaton.cpp.o
+
+.PHONY : prj1/CommentAutomaton.o
+
+# target to build an object file
+prj1/CommentAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/CommentAutomaton.cpp.o
+.PHONY : prj1/CommentAutomaton.cpp.o
+
+prj1/CommentAutomaton.i: prj1/CommentAutomaton.cpp.i
+
+.PHONY : prj1/CommentAutomaton.i
+
+# target to preprocess a source file
+prj1/CommentAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/CommentAutomaton.cpp.i
+.PHONY : prj1/CommentAutomaton.cpp.i
+
+prj1/CommentAutomaton.s: prj1/CommentAutomaton.cpp.s
+
+.PHONY : prj1/CommentAutomaton.s
+
+# target to generate assembly for a file
+prj1/CommentAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/CommentAutomaton.cpp.s
+.PHONY : prj1/CommentAutomaton.cpp.s
+
+prj1/FactsAutomaton.o: prj1/FactsAutomaton.cpp.o
+
+.PHONY : prj1/FactsAutomaton.o
+
+# target to build an object file
+prj1/FactsAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/FactsAutomaton.cpp.o
+.PHONY : prj1/FactsAutomaton.cpp.o
+
+prj1/FactsAutomaton.i: prj1/FactsAutomaton.cpp.i
+
+.PHONY : prj1/FactsAutomaton.i
+
+# target to preprocess a source file
+prj1/FactsAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/FactsAutomaton.cpp.i
+.PHONY : prj1/FactsAutomaton.cpp.i
+
+prj1/FactsAutomaton.s: prj1/FactsAutomaton.cpp.s
+
+.PHONY : prj1/FactsAutomaton.s
+
+# target to generate assembly for a file
+prj1/FactsAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/FactsAutomaton.cpp.s
+.PHONY : prj1/FactsAutomaton.cpp.s
+
+prj1/IDAutomaton.o: prj1/IDAutomaton.cpp.o
+
+.PHONY : prj1/IDAutomaton.o
+
+# target to build an object file
+prj1/IDAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/IDAutomaton.cpp.o
+.PHONY : prj1/IDAutomaton.cpp.o
+
+prj1/IDAutomaton.i: prj1/IDAutomaton.cpp.i
+
+.PHONY : prj1/IDAutomaton.i
+
+# target to preprocess a source file
+prj1/IDAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/IDAutomaton.cpp.i
+.PHONY : prj1/IDAutomaton.cpp.i
+
+prj1/IDAutomaton.s: prj1/IDAutomaton.cpp.s
+
+.PHONY : prj1/IDAutomaton.s
+
+# target to generate assembly for a file
+prj1/IDAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/IDAutomaton.cpp.s
+.PHONY : prj1/IDAutomaton.cpp.s
+
+prj1/LeftParenAutomaton.o: prj1/LeftParenAutomaton.cpp.o
+
+.PHONY : prj1/LeftParenAutomaton.o
+
+# target to build an object file
+prj1/LeftParenAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/LeftParenAutomaton.cpp.o
+.PHONY : prj1/LeftParenAutomaton.cpp.o
+
+prj1/LeftParenAutomaton.i: prj1/LeftParenAutomaton.cpp.i
+
+.PHONY : prj1/LeftParenAutomaton.i
+
+# target to preprocess a source file
+prj1/LeftParenAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/LeftParenAutomaton.cpp.i
+.PHONY : prj1/LeftParenAutomaton.cpp.i
+
+prj1/LeftParenAutomaton.s: prj1/LeftParenAutomaton.cpp.s
+
+.PHONY : prj1/LeftParenAutomaton.s
+
+# target to generate assembly for a file
+prj1/LeftParenAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/LeftParenAutomaton.cpp.s
+.PHONY : prj1/LeftParenAutomaton.cpp.s
+
+prj1/Lexer.o: prj1/Lexer.cpp.o
+
+.PHONY : prj1/Lexer.o
+
+# target to build an object file
+prj1/Lexer.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/Lexer.cpp.o
+.PHONY : prj1/Lexer.cpp.o
+
+prj1/Lexer.i: prj1/Lexer.cpp.i
+
+.PHONY : prj1/Lexer.i
+
+# target to preprocess a source file
+prj1/Lexer.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/Lexer.cpp.i
+.PHONY : prj1/Lexer.cpp.i
+
+prj1/Lexer.s: prj1/Lexer.cpp.s
+
+.PHONY : prj1/Lexer.s
+
+# target to generate assembly for a file
+prj1/Lexer.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/Lexer.cpp.s
+.PHONY : prj1/Lexer.cpp.s
+
+prj1/MultiplyAutomaton.o: prj1/MultiplyAutomaton.cpp.o
+
+.PHONY : prj1/MultiplyAutomaton.o
+
+# target to build an object file
+prj1/MultiplyAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/MultiplyAutomaton.cpp.o
+.PHONY : prj1/MultiplyAutomaton.cpp.o
+
+prj1/MultiplyAutomaton.i: prj1/MultiplyAutomaton.cpp.i
+
+.PHONY : prj1/MultiplyAutomaton.i
+
+# target to preprocess a source file
+prj1/MultiplyAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/MultiplyAutomaton.cpp.i
+.PHONY : prj1/MultiplyAutomaton.cpp.i
+
+prj1/MultiplyAutomaton.s: prj1/MultiplyAutomaton.cpp.s
+
+.PHONY : prj1/MultiplyAutomaton.s
+
+# target to generate assembly for a file
+prj1/MultiplyAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/MultiplyAutomaton.cpp.s
+.PHONY : prj1/MultiplyAutomaton.cpp.s
+
+prj1/PeriodAutomaton.o: prj1/PeriodAutomaton.cpp.o
+
+.PHONY : prj1/PeriodAutomaton.o
+
+# target to build an object file
+prj1/PeriodAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/PeriodAutomaton.cpp.o
+.PHONY : prj1/PeriodAutomaton.cpp.o
+
+prj1/PeriodAutomaton.i: prj1/PeriodAutomaton.cpp.i
+
+.PHONY : prj1/PeriodAutomaton.i
+
+# target to preprocess a source file
+prj1/PeriodAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/PeriodAutomaton.cpp.i
+.PHONY : prj1/PeriodAutomaton.cpp.i
+
+prj1/PeriodAutomaton.s: prj1/PeriodAutomaton.cpp.s
+
+.PHONY : prj1/PeriodAutomaton.s
+
+# target to generate assembly for a file
+prj1/PeriodAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/PeriodAutomaton.cpp.s
+.PHONY : prj1/PeriodAutomaton.cpp.s
+
+prj1/QMarkAutomaton.o: prj1/QMarkAutomaton.cpp.o
+
+.PHONY : prj1/QMarkAutomaton.o
+
+# target to build an object file
+prj1/QMarkAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/QMarkAutomaton.cpp.o
+.PHONY : prj1/QMarkAutomaton.cpp.o
+
+prj1/QMarkAutomaton.i: prj1/QMarkAutomaton.cpp.i
+
+.PHONY : prj1/QMarkAutomaton.i
+
+# target to preprocess a source file
+prj1/QMarkAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/QMarkAutomaton.cpp.i
+.PHONY : prj1/QMarkAutomaton.cpp.i
+
+prj1/QMarkAutomaton.s: prj1/QMarkAutomaton.cpp.s
+
+.PHONY : prj1/QMarkAutomaton.s
+
+# target to generate assembly for a file
+prj1/QMarkAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/QMarkAutomaton.cpp.s
+.PHONY : prj1/QMarkAutomaton.cpp.s
+
+prj1/QueriesAutomaton.o: prj1/QueriesAutomaton.cpp.o
+
+.PHONY : prj1/QueriesAutomaton.o
+
+# target to build an object file
+prj1/QueriesAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/QueriesAutomaton.cpp.o
+.PHONY : prj1/QueriesAutomaton.cpp.o
+
+prj1/QueriesAutomaton.i: prj1/QueriesAutomaton.cpp.i
+
+.PHONY : prj1/QueriesAutomaton.i
+
+# target to preprocess a source file
+prj1/QueriesAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/QueriesAutomaton.cpp.i
+.PHONY : prj1/QueriesAutomaton.cpp.i
+
+prj1/QueriesAutomaton.s: prj1/QueriesAutomaton.cpp.s
+
+.PHONY : prj1/QueriesAutomaton.s
+
+# target to generate assembly for a file
+prj1/QueriesAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/QueriesAutomaton.cpp.s
+.PHONY : prj1/QueriesAutomaton.cpp.s
+
+prj1/RightParenAutomaton.o: prj1/RightParenAutomaton.cpp.o
+
+.PHONY : prj1/RightParenAutomaton.o
+
+# target to build an object file
+prj1/RightParenAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/RightParenAutomaton.cpp.o
+.PHONY : prj1/RightParenAutomaton.cpp.o
+
+prj1/RightParenAutomaton.i: prj1/RightParenAutomaton.cpp.i
+
+.PHONY : prj1/RightParenAutomaton.i
+
+# target to preprocess a source file
+prj1/RightParenAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/RightParenAutomaton.cpp.i
+.PHONY : prj1/RightParenAutomaton.cpp.i
+
+prj1/RightParenAutomaton.s: prj1/RightParenAutomaton.cpp.s
+
+.PHONY : prj1/RightParenAutomaton.s
+
+# target to generate assembly for a file
+prj1/RightParenAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/RightParenAutomaton.cpp.s
+.PHONY : prj1/RightParenAutomaton.cpp.s
+
+prj1/RulesAutomaton.o: prj1/RulesAutomaton.cpp.o
+
+.PHONY : prj1/RulesAutomaton.o
+
+# target to build an object file
+prj1/RulesAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/RulesAutomaton.cpp.o
+.PHONY : prj1/RulesAutomaton.cpp.o
+
+prj1/RulesAutomaton.i: prj1/RulesAutomaton.cpp.i
+
+.PHONY : prj1/RulesAutomaton.i
+
+# target to preprocess a source file
+prj1/RulesAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/RulesAutomaton.cpp.i
+.PHONY : prj1/RulesAutomaton.cpp.i
+
+prj1/RulesAutomaton.s: prj1/RulesAutomaton.cpp.s
+
+.PHONY : prj1/RulesAutomaton.s
+
+# target to generate assembly for a file
+prj1/RulesAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/RulesAutomaton.cpp.s
+.PHONY : prj1/RulesAutomaton.cpp.s
+
+prj1/SchemesAutomaton.o: prj1/SchemesAutomaton.cpp.o
+
+.PHONY : prj1/SchemesAutomaton.o
+
+# target to build an object file
+prj1/SchemesAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/SchemesAutomaton.cpp.o
+.PHONY : prj1/SchemesAutomaton.cpp.o
+
+prj1/SchemesAutomaton.i: prj1/SchemesAutomaton.cpp.i
+
+.PHONY : prj1/SchemesAutomaton.i
+
+# target to preprocess a source file
+prj1/SchemesAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/SchemesAutomaton.cpp.i
+.PHONY : prj1/SchemesAutomaton.cpp.i
+
+prj1/SchemesAutomaton.s: prj1/SchemesAutomaton.cpp.s
+
+.PHONY : prj1/SchemesAutomaton.s
+
+# target to generate assembly for a file
+prj1/SchemesAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/SchemesAutomaton.cpp.s
+.PHONY : prj1/SchemesAutomaton.cpp.s
+
+prj1/StringAutomaton.o: prj1/StringAutomaton.cpp.o
+
+.PHONY : prj1/StringAutomaton.o
+
+# target to build an object file
+prj1/StringAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/StringAutomaton.cpp.o
+.PHONY : prj1/StringAutomaton.cpp.o
+
+prj1/StringAutomaton.i: prj1/StringAutomaton.cpp.i
+
+.PHONY : prj1/StringAutomaton.i
+
+# target to preprocess a source file
+prj1/StringAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/StringAutomaton.cpp.i
+.PHONY : prj1/StringAutomaton.cpp.i
+
+prj1/StringAutomaton.s: prj1/StringAutomaton.cpp.s
+
+.PHONY : prj1/StringAutomaton.s
+
+# target to generate assembly for a file
+prj1/StringAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/StringAutomaton.cpp.s
+.PHONY : prj1/StringAutomaton.cpp.s
+
+prj1/Token.o: prj1/Token.cpp.o
+
+.PHONY : prj1/Token.o
+
+# target to build an object file
+prj1/Token.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/Token.cpp.o
+.PHONY : prj1/Token.cpp.o
+
+prj1/Token.i: prj1/Token.cpp.i
+
+.PHONY : prj1/Token.i
+
+# target to preprocess a source file
+prj1/Token.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/Token.cpp.i
+.PHONY : prj1/Token.cpp.i
+
+prj1/Token.s: prj1/Token.cpp.s
+
+.PHONY : prj1/Token.s
+
+# target to generate assembly for a file
+prj1/Token.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/prj1/Token.cpp.s
+.PHONY : prj1/Token.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -645,63 +672,66 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project-1"
-	@echo "... AddAutomaton.o"
-	@echo "... AddAutomaton.i"
-	@echo "... AddAutomaton.s"
-	@echo "... ColonAutomaton.o"
-	@echo "... ColonAutomaton.i"
-	@echo "... ColonAutomaton.s"
-	@echo "... ColonDashAutomaton.o"
-	@echo "... ColonDashAutomaton.i"
-	@echo "... ColonDashAutomaton.s"
-	@echo "... CommaAutomaton.o"
-	@echo "... CommaAutomaton.i"
-	@echo "... CommaAutomaton.s"
-	@echo "... CommentAutomaton.o"
-	@echo "... CommentAutomaton.i"
-	@echo "... CommentAutomaton.s"
-	@echo "... FactsAutomaton.o"
-	@echo "... FactsAutomaton.i"
-	@echo "... FactsAutomaton.s"
-	@echo "... IDAutomaton.o"
-	@echo "... IDAutomaton.i"
-	@echo "... IDAutomaton.s"
-	@echo "... LeftParenAutomaton.o"
-	@echo "... LeftParenAutomaton.i"
-	@echo "... LeftParenAutomaton.s"
-	@echo "... Lexer.o"
-	@echo "... Lexer.i"
-	@echo "... Lexer.s"
-	@echo "... MultiplyAutomaton.o"
-	@echo "... MultiplyAutomaton.i"
-	@echo "... MultiplyAutomaton.s"
-	@echo "... PeriodAutomaton.o"
-	@echo "... PeriodAutomaton.i"
-	@echo "... PeriodAutomaton.s"
-	@echo "... QMarkAutomaton.o"
-	@echo "... QMarkAutomaton.i"
-	@echo "... QMarkAutomaton.s"
-	@echo "... QueriesAutomaton.o"
-	@echo "... QueriesAutomaton.i"
-	@echo "... QueriesAutomaton.s"
-	@echo "... RightParenAutomaton.o"
-	@echo "... RightParenAutomaton.i"
-	@echo "... RightParenAutomaton.s"
-	@echo "... RulesAutomaton.o"
-	@echo "... RulesAutomaton.i"
-	@echo "... RulesAutomaton.s"
-	@echo "... SchemesAutomaton.o"
-	@echo "... SchemesAutomaton.i"
-	@echo "... SchemesAutomaton.s"
-	@echo "... StringAutomaton.o"
-	@echo "... StringAutomaton.i"
-	@echo "... StringAutomaton.s"
-	@echo "... Token.o"
-	@echo "... Token.i"
-	@echo "... Token.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... prj1/AddAutomaton.o"
+	@echo "... prj1/AddAutomaton.i"
+	@echo "... prj1/AddAutomaton.s"
+	@echo "... prj1/ColonAutomaton.o"
+	@echo "... prj1/ColonAutomaton.i"
+	@echo "... prj1/ColonAutomaton.s"
+	@echo "... prj1/ColonDashAutomaton.o"
+	@echo "... prj1/ColonDashAutomaton.i"
+	@echo "... prj1/ColonDashAutomaton.s"
+	@echo "... prj1/CommaAutomaton.o"
+	@echo "... prj1/CommaAutomaton.i"
+	@echo "... prj1/CommaAutomaton.s"
+	@echo "... prj1/CommentAutomaton.o"
+	@echo "... prj1/CommentAutomaton.i"
+	@echo "... prj1/CommentAutomaton.s"
+	@echo "... prj1/FactsAutomaton.o"
+	@echo "... prj1/FactsAutomaton.i"
+	@echo "... prj1/FactsAutomaton.s"
+	@echo "... prj1/IDAutomaton.o"
+	@echo "... prj1/IDAutomaton.i"
+	@echo "... prj1/IDAutomaton.s"
+	@echo "... prj1/LeftParenAutomaton.o"
+	@echo "... prj1/LeftParenAutomaton.i"
+	@echo "... prj1/LeftParenAutomaton.s"
+	@echo "... prj1/Lexer.o"
+	@echo "... prj1/Lexer.i"
+	@echo "... prj1/Lexer.s"
+	@echo "... prj1/MultiplyAutomaton.o"
+	@echo "... prj1/MultiplyAutomaton.i"
+	@echo "... prj1/MultiplyAutomaton.s"
+	@echo "... prj1/PeriodAutomaton.o"
+	@echo "... prj1/PeriodAutomaton.i"
+	@echo "... prj1/PeriodAutomaton.s"
+	@echo "... prj1/QMarkAutomaton.o"
+	@echo "... prj1/QMarkAutomaton.i"
+	@echo "... prj1/QMarkAutomaton.s"
+	@echo "... prj1/QueriesAutomaton.o"
+	@echo "... prj1/QueriesAutomaton.i"
+	@echo "... prj1/QueriesAutomaton.s"
+	@echo "... prj1/RightParenAutomaton.o"
+	@echo "... prj1/RightParenAutomaton.i"
+	@echo "... prj1/RightParenAutomaton.s"
+	@echo "... prj1/RulesAutomaton.o"
+	@echo "... prj1/RulesAutomaton.i"
+	@echo "... prj1/RulesAutomaton.s"
+	@echo "... prj1/SchemesAutomaton.o"
+	@echo "... prj1/SchemesAutomaton.i"
+	@echo "... prj1/SchemesAutomaton.s"
+	@echo "... prj1/StringAutomaton.o"
+	@echo "... prj1/StringAutomaton.i"
+	@echo "... prj1/StringAutomaton.s"
+	@echo "... prj1/Token.o"
+	@echo "... prj1/Token.i"
+	@echo "... prj1/Token.s"
 .PHONY : help
 
 

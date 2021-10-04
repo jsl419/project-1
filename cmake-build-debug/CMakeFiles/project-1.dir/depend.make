@@ -104,5 +104,8 @@ CMakeFiles/project-1.dir/StringAutomaton.cpp.o: ../Token.h
 CMakeFiles/project-1.dir/Token.cpp.o: ../Token.cpp
 CMakeFiles/project-1.dir/Token.cpp.o: ../Token.h
 
+CMakeFiles/project-1.dir/main.cpp.o: ../Automaton.h
+CMakeFiles/project-1.dir/main.cpp.o: ../Lexer.h
+CMakeFiles/project-1.dir/main.cpp.o: ../Token.h
 CMakeFiles/project-1.dir/main.cpp.o: ../main.cpp
 

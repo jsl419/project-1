@@ -84,118 +84,124 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/AddAutomaton.cpp">
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Parser.cpp">
 			<Option target="project-1"/>
 		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/AddAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Automaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/ColonAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/ColonAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/ColonDashAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/ColonDashAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CommaAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CommaAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CommentAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CommentAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/FactsAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/FactsAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/IDAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/IDAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/LeftParenAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/LeftParenAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Lexer.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Lexer.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/MultiplyAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/MultiplyAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/PeriodAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/PeriodAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/QMarkAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/QMarkAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/QueriesAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/QueriesAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/RightParenAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/RightParenAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/RulesAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/RulesAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/SchemesAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/SchemesAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/StringAutomaton.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/StringAutomaton.h">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Token.cpp">
-			<Option target="project-1"/>
-		</Unit>
-		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Token.h">
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Parser.h">
 			<Option target="project-1"/>
 		</Unit>
 		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/main.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/AddAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/AddAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/Automaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/ColonAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/ColonAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/ColonDashAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/ColonDashAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/CommaAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/CommaAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/CommentAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/CommentAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/FactsAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/FactsAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/IDAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/IDAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/LeftParenAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/LeftParenAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/Lexer.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/Lexer.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/MultiplyAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/MultiplyAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/PeriodAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/PeriodAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/QMarkAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/QMarkAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/QueriesAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/QueriesAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/RightParenAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/RightParenAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/RulesAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/RulesAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/SchemesAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/SchemesAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/StringAutomaton.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/StringAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/Token.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/Token.h">
 			<Option target="project-1"/>
 		</Unit>
 		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/CMakeLists.txt">
