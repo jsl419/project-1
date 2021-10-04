@@ -8,13 +8,16 @@
 #include <vector>
 
 class Parser {
-    void Run(Lexer lexer);
+
+public:
+
+    void Run(Lexer* lexer);
     void createParser();
-std::vector<TokenType> parseList;
-std::vector<TokenType> lexerList;
+    std::vector<TokenType> parseList;
+    std::vector<TokenType> lexerList;
     Parser();
     ~Parser();
-    void LexerToTokentypeList(Lexer lexer);
+    void LexerToTokentypeList(Lexer* lexer);
 };
 
 

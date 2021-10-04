@@ -22,7 +22,7 @@ void Parser::createParser() {
     parseList.push_back(TokenType::SCHEMES);
 }
 
-void Parser::Run(Lexer lexer) {
+void Parser::Run(Lexer* lexer) {
     LexerToTokentypeList(lexer);
     while((parseList.size() > 0) && (lexerList.size() > 0)){
         if(parseList.at(parseList.size()-1) == lexerList.at(0)){
@@ -158,8 +158,8 @@ Parser::~Parser() {
     parseList.clear();
 }
 
-void Parser::LexerToTokentypeList(Lexer lexer) {
-    for (unsigned int i = 0; i < lexer.tokens.size(); ++i) {
-        lexerList.push_back(lexer.tokens.at(i)->typeToken);
+void Parser::LexerToTokentypeList(Lexer* lexer) {
+    for (unsigned int i = 0; i < lexer->tokens.size(); ++i) {
+        lexerList.push_back(lexer->tokens.at(i)->typeToken);
     }
 }
