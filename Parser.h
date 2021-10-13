@@ -12,12 +12,23 @@ class Parser {
 public:
 
     void Run(Lexer* lexer);
+    void S0();
+    void S1();
+    void S2();
+    void S3();
+    void S4();
+    bool SIDList();
+    bool SStringList();
+    bool SHeadPredicate();
+    bool SPredicateList();
+    bool SParamList();
     void createParser();
     std::vector<TokenType> parseList;
     std::vector<TokenType> lexerList;
     Parser();
     ~Parser();
     void LexerToTokentypeList(Lexer* lexer);
+    bool properGrammar = true;
 };
 
 

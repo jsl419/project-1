@@ -7,7 +7,6 @@
 void Parser::createParser() {
     parseList.push_back(TokenType::ENDOFFILE);
     parseList.push_back(TokenType::querylist);
-    parseList.push_back(TokenType::query);
     parseList.push_back(TokenType::COLON);
     parseList.push_back(TokenType::QUERIES);
     parseList.push_back(TokenType::rulelist);
@@ -17,13 +16,203 @@ void Parser::createParser() {
     parseList.push_back(TokenType::COLON);
     parseList.push_back(TokenType::FACTS);
     parseList.push_back(TokenType::schemelist);
-    parseList.push_back(TokenType::scheme);
     parseList.push_back(TokenType::COLON);
     parseList.push_back(TokenType::SCHEMES);
 }
 
 void Parser::Run(Lexer* lexer) {
     LexerToTokentypeList(lexer);
+}
+void Parser::S0() {
+    if ((parseList.size() > 0) && (lexerList.size() > 0)) {
+        if (parseList.at(parseList.size() - 1) == lexerList.at(0)) {
+            parseList.pop_back();
+            lexerList.erase(lexerList.begin());
+            S0();
+        } else if (parseList.at(parseList.size() - 1) == TokenType::schemelist) {
+            parseList.pop_back();
+            S1();
+        } else if (parseList.at(parseList.size() - 1) == TokenType::factlist) {
+            parseList.pop_back();
+            S2();
+        } else if (parseList.at(parseList.size() - 1) == TokenType::rulelist) {
+            parseList.pop_back();
+            S3();
+        } else if (parseList.at(parseList.size() - 1) == TokenType::querylist) {
+            parseList.pop_back();
+            S4();
+        } else {
+            properGrammar = false;
+            return;
+        }
+    }
+    else properGrammar = false;
+}
+void Parser::S1() {
+    if (lexerList.at(0) == TokenType::ID) {
+        lexerList.erase(lexerList.begin());
+        if(lexerList.at(0) == TokenType::LEFT_PAREN){
+            lexerList.erase(lexerList.begin());
+            if(lexerList.at(0) == TokenType::ID){
+                lexerList.erase(lexerList.begin());
+                if(SIDList()){
+                    if(lexerList.at(0) == TokenType::RIGHT_PAREN){
+                        lexerList.erase(lexerList.begin());
+                        S1();
+                    }else {
+                        properGrammar = false;
+                        return;
+                    }
+                } else{
+                    properGrammar = false;
+                    return;
+                }
+            }
+        } else {
+            properGrammar = false;
+            return;
+        }
+    } else{
+        S0();
+    }
+}
+void Parser::S2() { //fact list
+    if (lexerList.at(0) == TokenType::ID) {
+        lexerList.erase(lexerList.begin());
+        if(lexerList.at(0) == TokenType::LEFT_PAREN){
+            lexerList.erase(lexerList.begin());
+            if(lexerList.at(0) == TokenType::STRING){
+                lexerList.erase(lexerList.begin());
+                if(SStringList()){
+                    if(lexerList.at(0) == TokenType::RIGHT_PAREN){
+                        lexerList.erase(lexerList.begin());
+                        S2();
+                    }else {
+                        properGrammar = false;
+                        return;
+                    }
+                } else{
+                    properGrammar = false;
+                    return;
+                }
+            }
+        } else {
+            properGrammar = false;
+            return;
+        }
+    } else{
+        S0();
+    }
+}
+void Parser::S3() {//rulelist
+    if (SHeadPredicate()) {
+        if(lexerList.at(0) == TokenType::COLON_DASH){
+            lexerList.erase(lexerList.begin());
+            if(SPredicateList()){
+                    if(lexerList.at(0) == TokenType::PERIOD){
+                        lexerList.erase(lexerList.begin());
+                        S3();
+                    }else {
+                        properGrammar = false;
+                        return;
+                    }
+            } else{
+                properGrammar = false;
+                return;
+            }
+        } else {
+            properGrammar = false;
+            return;
+        }
+    } else{
+        S0();
+    }
+}
+void Parser::S4() {
+
+}
+bool Parser::SIDList() {
+    if (lexerList.at(0) == TokenType::COMMA) {
+        lexerList.erase(lexerList.begin());
+        if(lexerList.at(0) == TokenType::ID){
+            lexerList.erase(lexerList.begin());
+            if(SIDList()){
+                return true;
+            }else{
+                return false;
+            }
+        } else {
+            return false;
+        }
+    } else{
+        return true;
+    }
+}
+bool Parser::SStringList() {
+    if (lexerList.at(0) == TokenType::COMMA) {
+        lexerList.erase(lexerList.begin());
+        if(lexerList.at(0) == TokenType::STRING){
+            lexerList.erase(lexerList.begin());
+            if(SStringList()){
+                return true;
+            }else{
+                return false;
+            }
+        } else {
+            return false;
+        }
+    } else{
+        return true;
+    }
+}
+bool Parser::SHeadPredicate() {
+    if (lexerList.at(0) == TokenType::ID) {
+        lexerList.erase(lexerList.begin());
+        if (lexerList.at(0) == TokenType::LEFT_PAREN) {
+            lexerList.erase(lexerList.begin());
+            if (lexerList.at(0) == TokenType::ID) {
+                lexerList.erase(lexerList.begin());
+                if (SIDList()) {
+                    if(lexerList.at(0) == TokenType::RIGHT_PAREN){
+                        lexerList.erase(lexerList.begin());
+                        return true;
+                    } else {
+                        return false;
+                    }
+                } else {
+                    return true;
+                }
+            } else {
+                return false;
+            }
+        } else {
+            return false;
+        }
+    }else {
+        return false;
+    }
+}
+bool Parser::SPredicateList() {
+    if (lexerList.at(0) == TokenType::ID) {
+        lexerList.erase(lexerList.begin());
+        if(lexerList.at(0) == TokenType::LEFT_PAREN){
+            lexerList.erase(lexerList.begin());
+            if(SParamList()){
+                return true;
+            }else{
+                return false;
+            }
+        } else {
+            return false;
+        }
+    } else{
+        return true;
+    }
+}
+bool Parser::SParamList() {
+
+}
+/*
     while((parseList.size() > 0) && (lexerList.size() > 0)){
         if(parseList.at(parseList.size()-1) == lexerList.at(0)){
             parseList.pop_back();
@@ -149,9 +338,9 @@ void Parser::Run(Lexer* lexer) {
             return;
         }
     }
-}
-Parser::Parser() {
-    createParser();
+    */
+Parser::Parser(){
+        createParser();
 }
 Parser::~Parser() {
     lexerList.clear();

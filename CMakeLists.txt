@@ -44,4 +44,4 @@ add_executable(project-1
         prj1/Token.h
         Parser.cpp
         Parser.h
-        )
+        DatalogProgram.cpp DatalogProgram.h Rule.cpp Rule.h Predicate.cpp Predicate.h parameter.cpp parameter.h)

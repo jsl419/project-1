@@ -123,6 +123,33 @@ project-1/fast:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/build
 .PHONY : project-1/fast
 
+DatalogProgram.o: DatalogProgram.cpp.o
+
+.PHONY : DatalogProgram.o
+
+# target to build an object file
+DatalogProgram.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/DatalogProgram.cpp.o
+.PHONY : DatalogProgram.cpp.o
+
+DatalogProgram.i: DatalogProgram.cpp.i
+
+.PHONY : DatalogProgram.i
+
+# target to preprocess a source file
+DatalogProgram.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/DatalogProgram.cpp.i
+.PHONY : DatalogProgram.cpp.i
+
+DatalogProgram.s: DatalogProgram.cpp.s
+
+.PHONY : DatalogProgram.s
+
+# target to generate assembly for a file
+DatalogProgram.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/DatalogProgram.cpp.s
+.PHONY : DatalogProgram.cpp.s
+
 Parser.o: Parser.cpp.o
 
 .PHONY : Parser.o
@@ -150,6 +177,60 @@ Parser.cpp.s:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Parser.cpp.s
 .PHONY : Parser.cpp.s
 
+Predicate.o: Predicate.cpp.o
+
+.PHONY : Predicate.o
+
+# target to build an object file
+Predicate.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Predicate.cpp.o
+.PHONY : Predicate.cpp.o
+
+Predicate.i: Predicate.cpp.i
+
+.PHONY : Predicate.i
+
+# target to preprocess a source file
+Predicate.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Predicate.cpp.i
+.PHONY : Predicate.cpp.i
+
+Predicate.s: Predicate.cpp.s
+
+.PHONY : Predicate.s
+
+# target to generate assembly for a file
+Predicate.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Predicate.cpp.s
+.PHONY : Predicate.cpp.s
+
+Rule.o: Rule.cpp.o
+
+.PHONY : Rule.o
+
+# target to build an object file
+Rule.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Rule.cpp.o
+.PHONY : Rule.cpp.o
+
+Rule.i: Rule.cpp.i
+
+.PHONY : Rule.i
+
+# target to preprocess a source file
+Rule.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Rule.cpp.i
+.PHONY : Rule.cpp.i
+
+Rule.s: Rule.cpp.s
+
+.PHONY : Rule.s
+
+# target to generate assembly for a file
+Rule.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Rule.cpp.s
+.PHONY : Rule.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -176,6 +257,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+parameter.o: parameter.cpp.o
+
+.PHONY : parameter.o
+
+# target to build an object file
+parameter.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/parameter.cpp.o
+.PHONY : parameter.cpp.o
+
+parameter.i: parameter.cpp.i
+
+.PHONY : parameter.i
+
+# target to preprocess a source file
+parameter.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/parameter.cpp.i
+.PHONY : parameter.cpp.i
+
+parameter.s: parameter.cpp.s
+
+.PHONY : parameter.s
+
+# target to generate assembly for a file
+parameter.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/parameter.cpp.s
+.PHONY : parameter.cpp.s
 
 prj1/AddAutomaton.o: prj1/AddAutomaton.cpp.o
 
@@ -672,12 +780,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... project-1"
+	@echo "... DatalogProgram.o"
+	@echo "... DatalogProgram.i"
+	@echo "... DatalogProgram.s"
 	@echo "... Parser.o"
 	@echo "... Parser.i"
 	@echo "... Parser.s"
+	@echo "... Predicate.o"
+	@echo "... Predicate.i"
+	@echo "... Predicate.s"
+	@echo "... Rule.o"
+	@echo "... Rule.i"
+	@echo "... Rule.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... parameter.o"
+	@echo "... parameter.i"
+	@echo "... parameter.s"
 	@echo "... prj1/AddAutomaton.o"
 	@echo "... prj1/AddAutomaton.i"
 	@echo "... prj1/AddAutomaton.s"

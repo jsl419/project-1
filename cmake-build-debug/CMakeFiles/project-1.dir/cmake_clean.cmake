@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/project-1.dir/DatalogProgram.cpp.o"
   "CMakeFiles/project-1.dir/Parser.cpp.o"
+  "CMakeFiles/project-1.dir/Predicate.cpp.o"
+  "CMakeFiles/project-1.dir/Rule.cpp.o"
   "CMakeFiles/project-1.dir/main.cpp.o"
+  "CMakeFiles/project-1.dir/parameter.cpp.o"
   "CMakeFiles/project-1.dir/prj1/AddAutomaton.cpp.o"
   "CMakeFiles/project-1.dir/prj1/ColonAutomaton.cpp.o"
   "CMakeFiles/project-1.dir/prj1/ColonDashAutomaton.cpp.o"

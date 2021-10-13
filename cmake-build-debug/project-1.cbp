@@ -84,13 +84,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/DatalogProgram.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/DatalogProgram.h">
+			<Option target="project-1"/>
+		</Unit>
 		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Parser.cpp">
 			<Option target="project-1"/>
 		</Unit>
 		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Parser.h">
 			<Option target="project-1"/>
 		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Predicate.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Predicate.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Rule.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/Rule.h">
+			<Option target="project-1"/>
+		</Unit>
 		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/main.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/parameter.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/parameter.h">
 			<Option target="project-1"/>
 		</Unit>
 		<Unit filename="/users/guest/j/jsl419/tmp/tmp.iTmg8bdXZ7/prj1/AddAutomaton.cpp">
